@@ -2,7 +2,7 @@
 
 How does a 3D scene become a 2D image without a graphics library? This project builds a small rendering pipeline from scratch in JavaScript and uses it to display an interactive wireframe cube on an HTML canvas. It makes the geometry behind rotation, near-plane clipping, perspective, and screen coordinates visible in one runnable example.
 
-## Team member
+## Team members
 
 - Ethan Lahr ([@NeefMan](https://github.com/NeefMan))
 

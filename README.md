@@ -2,6 +2,10 @@
 
 How does a 3D scene become a 2D image without a graphics library? This project builds a small rendering pipeline from scratch in JavaScript and uses it to display an interactive wireframe cube on an HTML canvas. It makes the geometry behind rotation, near-plane clipping, perspective, and screen coordinates visible in one runnable example.
 
+## Team member
+
+- Ethan Lahr ([@NeefMan](https://github.com/NeefMan))
+
 ## Project highlights
 
 - Renders a cube defined by **8 vertices and 12 unique edges** on a **600 × 600** canvas.
@@ -44,14 +48,5 @@ Each update follows a 3D-to-2D rendering pipeline:
 5. **Draw and repeat.** The renderer clears the canvas, draws the visible edges as green lines, and schedules the next update. Pressed keys change the position and angles on each update.
 
 The code keeps these stages as separate functions in `index.js`, so each transformation can be read in the order it is applied. This is a wireframe demonstration: it does not fill surfaces, shade them, or use WebGL.
-
-## Team member
-
-- Ethan Lahr ([@NeefMan](https://github.com/NeefMan))
-
-## Files
-
-- `index.html` creates the canvas and loads the script.
-- `index.js` contains the geometry, transformations, clipping, projection, controls, and drawing loop.
 
 For a longer explanation of the graphics concepts, see [The Elegance of 3D Graphics](https://dev.to/neefman/the-elegance-of-3d-graphics-1kc4).

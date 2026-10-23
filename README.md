@@ -1,6 +1,6 @@
 # 3D Wireframe Cube Renderer in JavaScript
 
-How does a 3D scene become a 2D image without a graphics library? This project builds a small rendering pipeline from scratch in JavaScript and uses it to display an interactive wireframe cube on an HTML canvas. It makes the geometry behind rotation, near-plane clipping, perspective, and screen coordinates visible in one runnable example.
+How does a 3D scene become a 2D image without a graphics library? This project explores that question by implementing a simple 3D rendering pipeline from scratch in JavaScript. Using an interactive wireframe cube displayed on an HTML canvas, it demonstrates the mathematics behind 3D rotation, near-plane clipping, perspective projection, and screen-coordinate transformations.
 
 ## Team members
 
